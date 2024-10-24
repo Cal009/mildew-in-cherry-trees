@@ -58,11 +58,22 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Hypothesis and how to validate?
 
-- List here your project hypothesis(es) and how you envision validating it (them).
+- It is believed that the infected cherry tree contains a powdery mildew which should be visibile in the data provided, clearly differentiating them from a healthy tree.
+
+- An average image study can help to investigate this.
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-- List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+- Business Requirement 1: Data Visualization
+
+    - We will display the "mean" and "standard deviation" images for powedery mildew and healthy leaves.
+    - We will display the difference between average diseased and healthy leaves.
+    - We will display an image montage for either dieseased or healthy leaves.
+
+- Business Requirement 2: Classification
+
+    - We want to predict if a given tree is healthy or not.
+    - We want to build a binary classifier and generate reports.
 
 ## ML Business Case
 
