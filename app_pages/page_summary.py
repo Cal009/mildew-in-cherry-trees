@@ -17,10 +17,9 @@ def page_summary():
 
     st.success(
         f"The project has 2 business requirements:\n"
-        f"* **Business requirement 1:** Your study should include at least analysis on:\n"
-        f"- average images and variability images for each class (healthy or powdery mildew)\n"
-        f"- the differences between average healthy and average powdery mildew cherry leaves\n"
-        f"- an image montage for each class.\n"
+        f"* **Business requirement 1:**\n"
+        f" - The client is interested in conducting a study to visually differentiate"
+        f" a cherry leaf that is healthy from one that contains powdery mildew."
         f"* **Business requirement 2:**\n"
-        f" - The client is interested in predicting if a cherry tree is healthy or contains powdery mildew. "
+        f" - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew. "
         )

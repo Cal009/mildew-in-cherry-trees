@@ -77,7 +77,10 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## ML Business Case
 
-- In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+#### MildewCLF
+
+- We want the ML model to predict if a given tree has the powdery mildew or not base on historical image data. It is a supervised model, a 2-class, single-label classification model.
+- As agreed with the client, the success metrics are to be 97% or above
 
 ## Dashboard Design
 
