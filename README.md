@@ -81,12 +81,14 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 - We want the ML model to predict if a given tree has the powdery mildew or not base on historical image data. It is a supervised model, a 2-class, single-label classification model.
 - As agreed with the client, the success metrics are to be 97% or above
+- Heuristics: The current diagnostic requires a member of staff to spend around 30 minutes on each tree, taking a few samples from the tree leaves and verifying visually if the leaf is healthy or has powdery mildew. If the tree has powdery mildew on it, the employee will apply a specific amount of a specific compound to kill the fungus.
 
 ## Dashboard Design
 
-- List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-- Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
-
+#### Page Summary: Quick Project Summary
+- Quick Project study
+    - General information
+    
 ## Unfixed Bugs
 
 - You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
