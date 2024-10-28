@@ -105,6 +105,18 @@ To save time in this process, the IT team suggested an ML system that detects in
     - Checkbox 3 - Image montage
 
 #### Page 3: Mildew Detector
+- This page will deal with business requirement 2
+- A link to download a set of infected and uninfected images for live prediction.
+- User interface with a file uploader widget. The user should upload multiple infected images. It will display the image and a prediction statement, indicating if the leaf is tree is infected with the powdery mildew or not and the probability associated with he statement.
+- Table with the image name and prediction results
+- Donwload button to download the results.
+
+#### Page 4: Project hypothesis and validation
+
+#### Page 5: ML Performance Metrics
+- Label Frequencies for Train, Validation and Test Sets
+- Model History - Accuracy and Losses
+- Model evaluation result
 
     
 ## Unfixed Bugs
