@@ -85,9 +85,27 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Dashboard Design
 
-#### Page Summary: Quick Project Summary
+#### Page 1: Quick Project Summary
 - Quick Project study
     - General information
+        - The powdery mildew that can be found on cherry tree's is caused by the fungus Podosphaera clandestina.
+        - This fungus can easily be spread by insects or wind pushing the fungus spores airborn
+        - The process for manually identifying these trees can be very tedious and time consuming for the business.
+        - Multiple samples are collected via hand from the trees, assessed and then if necessary a compound is applied to the diseased tree, aiming to kill the fungus.
+    - Project Dataset
+        - The given dataset contains 4208 samples with the data being split 50/50 between healthy and powdered mildew
+    - Business Requirements
+        - The client is interested in conducting a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew.
+        - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+
+#### Page 2: Mildew Visualizer
+- This page will answer business requirement 1
+    - Checkbox 1 - Difference between average and variability image
+    - Checkbox 2 - Differences between average infected tree and normal tree
+    - Checkbox 3 - Image montage
+
+#### Page 3: Mildew Detector
+
     
 ## Unfixed Bugs
 
