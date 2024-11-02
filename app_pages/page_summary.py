@@ -19,7 +19,7 @@ def page_summary():
         f"The project has 2 business requirements:\n"
         f"* **Business requirement 1:**\n"
         f" - The client is interested in conducting a study to visually differentiate"
-        f" a cherry leaf that is healthy from one that contains powdery mildew."
+        f" a cherry leaf that is healthy from one that contains powdery mildew.\n"
         f"* **Business requirement 2:**\n"
         f" - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew. "
         )
