@@ -15,7 +15,7 @@ def page_mildew_visualizer_body():
 
     st.warning(
         f"We suspect cherry leaves that are affected by the powdery mildew show clear markings,"
-        f" these can be identified by the fluffy white cotton-like substance that grows on the leafs surface."
+        f" these can be identified by the fluffy white cotton-like substance that grows on the surface of the leaves."
     )
 
     version = 'v1'
