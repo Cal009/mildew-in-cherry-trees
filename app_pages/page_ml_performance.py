@@ -39,7 +39,7 @@ def page_ml_performance_metrics():
     st.warning(
         f"• The loss value implies how well or not a model behaves after each optimization period.\n\n"
         f"• The loss function quantifies the error margin between the model's predictions and the actual target value."
-        f"With this in mind the lower the loss value is, the more accurate the model becomes, meaning more accurate predictions for the business.\n\n"
+        f" With this in mind the lower the loss value is, the more accurate the model becomes, meaning more accurate predictions for the business to use.\n\n"
     )
 
     st.write("---")
