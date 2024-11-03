@@ -43,6 +43,21 @@ To save time in this process, the IT team suggested an ML system that detects in
 **Hypothesis**: Infected leaves have clear marks differentiating them from the healthy leaves.
 - __How to Validate__: Research about the disease and build an average image study.<br/>
 
+### Hypothesis 1: 
+
+#### _Infected leaves have clear marks differentiating them from the healthy leaves._
+
+#### 1. Introduction
+
+We suspect that cherry leaves that are affected by powdery mildew show clear markers on the surface of the leaf. Usually a white cotton-like growth appears to form around the leaf.
+
+When we are dealing with an image dataset, it is important to normalise the images in the dataset. Normalized data is easy to interpret making it easier to understand. When all the features of a dataset are on the same scale, it also becomes easier to identify and visualize the relationships between different features and make meaningful comparisons, this is especially useful in our use case scenario.
+
+#### 2. Observation
+
+An image montage shows a clear difference between the two, infected and healthy
+![montage_healthy]()
+
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
 - Business Requirement 1: Data Visualization
