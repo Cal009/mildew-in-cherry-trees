@@ -56,7 +56,8 @@ When we are dealing with an image dataset, it is important to normalise the imag
 #### 2. Observation
 
 An image montage shows a clear difference between the two, infected and healthy
-![montage_healthy]()
+![montage_healthy](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/healthy_leaf.png)
+![montage_healthy](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/powdery_mildew_leaf.png)
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
