@@ -68,6 +68,10 @@ However the image difference between average infected and average healthy shows 
 
 ![average_image](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/average_images.png)
 
+### 3. Conclusion
+
+The model was successful in being able to generalize and make accurate predictions by detecting the differences between healthy and infected. A sign of a good model shows that it did not 'memorize' the data set given to it when training allowing it to maintain its accuracy when presented with unseen data. This means the business can successfully use this model for the forseeable fututre, knowing it will provide accurate results.
+
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
 - Business Requirement 1: Data Visualization
