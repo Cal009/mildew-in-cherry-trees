@@ -1,4 +1,4 @@
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ![Cherry-tree](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/cherry-tree.jpg)
 
 ## Cloud IDE Reminders
 
@@ -110,8 +110,18 @@ As the report shows, 10 images were passed through the model, however only 8/10 
     - As a client I want to display the difference between the average healthy leaf and average leaf affected by the powdery mildew in order to visually differentiate between the two.
     - As a client I want to display an image montage of either healthy leaves or those affected by powdery mildew in order to visually differentiate between the two.
 
+The user stories were addressed when creating the Data Visualization notebook and are then displayed on the streamlit dashboard.
+Breaking down the Data Visualization notebook:
+    - The difference between an average infected leaf and a healthy one
+    - Image montage for either infected or healthy leaves.
+
 ### Business Requirement 2: Classification
 >The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+
+**User Storys:**
+    - As a client I want the ML model to have an overall accuracy rating of at least 97%
+
+The user story was adhered to when creating the ML model and acchieved over the required accuracy. That can then be used in the dashboard to upload more images and still receive the same level of accuracy.
 
 ## ML Business Case
 
@@ -120,6 +130,7 @@ As the report shows, 10 images were passed through the model, however only 8/10 
 - We want the ML model to predict if a given tree has the powdery mildew or not base on historical image data. It is a supervised model, a 2-class, single-label classification model.
 - As agreed with the client, the success metrics are to be 97% or above
 - Heuristics: The current diagnostic requires a member of staff to spend around 30 minutes on each tree, taking a few samples from the tree leaves and verifying visually if the leaf is healthy or has powdery mildew. If the tree has powdery mildew on it, the employee will apply a specific amount of a specific compound to kill the fungus.
+- The training data to fit the model came from a leaves database provided by the Farmy Foods company. The dataset contained 4206 images of cherry leaves, 50% healthy, 50% affected by powdery mildew.
 
 ## Dashboard Design
 
@@ -145,11 +156,12 @@ As the report shows, 10 images were passed through the model, however only 8/10 
 #### Page 3: Mildew Detector
 - This page will deal with business requirement 2
 - A link to download a set of infected and uninfected images for live prediction.
-- User interface with a file uploader widget. The user should upload multiple infected images. It will display the image and a prediction statement, indicating if the leaf is tree is infected with the powdery mildew or not and the probability associated with he statement.
+- User interface with a file uploader widget. The user should upload multiple infected images. It will display the image and a prediction statement, indicating if the leaf is tree is infected with the powdery mildew or not and the probability associated with the statement.
 - Table with the image name and prediction results
 - Donwload button to download the results.
 
 #### Page 4: Project hypothesis and validation
+- A section for each hypothesis and the validation beneath it. Each hypothesis will be broken down into introduction, observation and conclusion.
 
 #### Page 5: ML Performance Metrics
 - Label Frequencies for Train, Validation and Test Sets
@@ -159,22 +171,36 @@ As the report shows, 10 images were passed through the model, however only 8/10 
     
 ## Unfixed Bugs
 
-- You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+- No unfixed bugs present.
 
 ## Technologies Used
 
-- Here, you should list the libraries used in the project and provide an example(s) of how you used these libraries.
+- Heroku was used to deploy the project
+- Jupiter Notebook: to create and edit code for the project
+- Kaggle: for the dataset
+- Github was used to store the project code after deploying from gitpod
+- Gitpod: Used to write the code and commit and push to github
+- Python was the main language used
+- numpy==1.19.2
+- pandas==1.1.2
+- matplotlib==3.3.1
+- seaborn==0.11.0
+- plotly==4.12.0
+
+- streamlit==0.85.0
+
+- scikit-learn==0.24.2
+- tensorflow-cpu==2.6.0
+- keras==2.6.0
+- protobuf==3.20
+- altair<5
 
 ## Credits
 
-- In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism.
-- You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A.
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+The leaves data set was linked from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
 
 ### Media
 
