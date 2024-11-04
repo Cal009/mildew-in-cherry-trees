@@ -1,4 +1,4 @@
-# Cherry Leaf Mildew Detector ![Cherry-tree](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/cherry-tree.jpg)
+# ![Cherry-tree](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/cherry-tree.jpg) Cherry Leaf Mildew Detector 
 
 ## Cloud IDE Reminders
 
