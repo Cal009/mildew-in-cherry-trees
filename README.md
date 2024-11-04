@@ -12,6 +12,8 @@
 9. [Technologies Used](#technologies-used)
 10. [Credits](#credits)
 
+### Deployed version of this site can be found [here](https://cherry-leaf-detector-7dd715ad1b7d.herokuapp.com/)
+
 ## Dataset Content
 
 - The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace.
@@ -155,6 +157,16 @@ The user story was adhered to when creating the ML model and acchieved over the 
 - Label Frequencies for Train, Validation and Test Sets
 - Model History - Accuracy and Losses
 - Model evaluation result
+
+## Cross-Industry standard process for data mining (CRISP-DM)
+CRISP-DM is known as an industry-proven way to guide data mining efforts.
+    - As a methodology, it includes descriptions of the typical phases of a project, the tasks involved with each phase, and an explanation of the relationship between each task.
+    - As a process model, CRISP-DM provides an overview of the data mining life cycle
+
+Source for the information can be found at [IBM](https://www.ibm.com/docs/sr/spss-modeler/saas?topic=dm-crisp-help-overview)
+
+Below you can see a snippit of an example of CRISP-DM in use for this project. It outlined each process that needed taking for data visualization.
+[CRISP-DM](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/crisp-dm.png)
 
     
 ## Unfixed Bugs

@@ -23,3 +23,9 @@ def page_summary():
         f"* **Business requirement 2:**\n"
         f" - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew. "
         )
+
+    st.success(
+        f"Overall this Machine Learning Model was able to achieve the desired outcome, being able to accurately differentiate between a healthy cherry leaf"
+        f" and one thats affected by the powdery mildew. It was able to do this with a high accuracy score which can be found further in this dashboard."
+        f" The overall project meets all business requirements and is suitable for future use within the buiness."
+    )
