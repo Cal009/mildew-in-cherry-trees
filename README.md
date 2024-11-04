@@ -88,7 +88,7 @@ It is important to check for a detail like this incase it does provide a discrep
 #### 2. Observation
 
 Shown below is a collage of all the images used to test this hypothesis against the running ML model.
-![leaf_collage](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/leaf_collaeg.png)
+![leaf_collage](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/leaf_collage.png)
 
 All images have a different background to the origninal data set and once put through the Ml model the data below shows the accuracy.
 ![random_background_report](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/random_sample_report.png)
