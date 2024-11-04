@@ -89,6 +89,29 @@ All images have a different background to the origninal data set and once put th
 
 As the report shows, 10 images were passed through the model, however only 8/10 were predicted correctly meaning the model accuracy dropped to approximately 80%. As agreed with the business owner, the desired accuracy has to be 97% or above meaning that **yes** the background makes a difference to the model accuracy. Knowing this it is vital to inform the business owner when future testing to achieve high accuracy reports.
 
+## Rationale for the model
+
+The model has 1 input layer, 3 hidden layers (2 ConvLayer, 1 FullyConnected), 1 output layer.
+
+### Objective
+
+When setting the hyperparameters, number of hidden layers and choosing the optimizer was merely based on trial and error. I found that during the testing stage it was a fine line with the decision as the error margin was so low for the business requirements. A sign of a well trained model is its ability to remain accurate on unseen data.
+
+### Choosing the hyperparameters
+
+#### - Convolutional layer size:
+Conv1d and Conv2d are the main two convolutional layersr used. In our project it was more appropriate to use Conv2d (2 dimensional) as we are working with image data. Conv1d  is mainly used on sequential data with one spatial dimension whereas Conv2d is mainly used on image data as it applies 2 dimensional convolution height and width.
+
+#### Activation Function: 
+Relu is used for its simplicity, speed and its ability to work well with the given dataset. Relu usually produces higher-performance models due to its ability to train deep neural networks effectively. If the ReLU function is used for activation in a neural network in place of a sigmoid function, the value of the partial derivative of the loss function will have values of 0 or 1 which prevents the gradient from vanishing. More information can be found [here](https://www.kdnuggets.com/2022/02/vanishing-gradient-problem.html#:~:text=If%20the%20ReLU%20function%20is,prevents%20the%20gradient%20from%20vanishing.)
+
+#### Pooling:
+Pooling is a key concept in machine learning that plays a significant role in improving the performance of deep learning models. It is a process of down sampling the feature maps obtained from convolutional layers to reduce their spatial dimensions while retaining their most important features. In this project we use whats known as MaxPooling. MaxPooling is useful when the background of the image is dark and we are interested in only the lighter pixels of the image (powdery mildew is white). More on [Pooling](https://mohitmishra786687.medium.com/pooling-a-key-concept-in-machine-learning-81c05dcbce98#:~:text=Recap%20of%20the%20importance%20of,reducing%20the%20number%20of%20parameters.)
+
+#### Output Activation function:
+Our model required the use of either sigmoid or softmax. Our model that was trained was unable to reach a suitable accuracy rating when using sigmoid and therefore the choice was made to use softmax as this did provide us with the correct outcome.
+
+
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
 ### Business Requirement 1: Data Visualization
