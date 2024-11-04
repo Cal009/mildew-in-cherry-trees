@@ -40,8 +40,11 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Hypothesis and Validation
 
-**Hypothesis**: Infected leaves have clear marks differentiating them from the healthy leaves.
+**Hypothesis 1:**: Infected leaves have clear marks differentiating them from the healthy leaves.
 - __How to Validate__: Research about the disease and build an average image study.<br/>
+
+**Hypothesis 2:**: The model will be unable to predict as accurately if the background image is different from the original beige background used to train with.
+- __How to Validate__: Use a variety of images with different backgrounds to determine the models accuracy.<br/>
 
 ### Hypothesis 1: 
 
@@ -71,6 +74,28 @@ However the image difference between average infected and average healthy shows 
 ### 3. Conclusion
 
 The model was successful in being able to generalize and make accurate predictions by detecting the differences between healthy and infected. A sign of a good model shows that it did not 'memorize' the data set given to it when training allowing it to maintain its accuracy when presented with unseen data. This means the business can successfully use this model for the forseeable fututre, knowing it will provide accurate results.
+
+### Hypothesis 2: 
+
+#### _The model will be unable to predict as accurately if the background image is different from the original beige background used to train with._
+
+#### 1. Introduction
+
+We suspect that due to the model being trained on images all with the same background, it will be unable to remain as accurate when given an image with a different background.
+
+It is important to check for a detail like this incase it does provide a discrepency, allowing us to inform he business owner.
+
+#### 2. Observation
+
+Shown below is a collage of all the images used to test this hypothesis against the running ML model.
+![leaf_collage](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/leaf_collaeg.png)
+
+All images have a different background to the origninal data set and once put through the Ml model the data below shows the accuracy.
+![random_background_report](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/random_sample_report.png)
+
+#### 3. Conclusion
+
+As the report shows, 10 images were passed through the model, however only 8/10 were predicted correctly meaning the model accuracy dropped to approximately 80%. As agreed with the business owner, the desired accuracy has to be 97% or above meaning that **yes** the background makes a difference to the model accuracy. Knowing this it is vital to inform the business owner when future testing to achieve high accuracy reports.
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
@@ -133,21 +158,6 @@ The model was successful in being able to generalize and make accurate predictio
 
 - You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
-## Deployment
-
-### Heroku
-
-- The App live link is: `https://YOUR_APP_NAME.herokuapp.com/`
-- Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-- The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button Open App on the top of the page to access your App.
-6. If the slug size is too large, then add large files not required for the app to the .slugignore file.
-
 ## Technologies Used
 
 - Here, you should list the libraries used in the project and provide an example(s) of how you used these libraries.
@@ -167,6 +177,19 @@ The model was successful in being able to generalize and make accurate predictio
 
 - The photos used on the home and sign-up page are from This Open-Source site.
 - The images used for the gallery page were taken from this other open-source site.
+
+### Heroku
+
+- The App live link is: `https://YOUR_APP_NAME.herokuapp.com/`
+- Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
+- The project was deployed to Heroku using the following steps.
+
+1. Log in to Heroku and create an App
+2. At the Deploy tab, select GitHub as the deployment method.
+3. Select your repository name and click Search. Once it is found, click Connect.
+4. Select the branch you want to deploy, then click Deploy Branch.
+5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button Open App on the top of the page to access your App.
+6. If the slug size is too large, then add large files not required for the app to the .slugignore file.
 
 ## Acknowledgements (optional)
 
