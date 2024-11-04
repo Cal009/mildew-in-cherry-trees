@@ -199,7 +199,7 @@ Source for the information can be found at [IBM](https://www.ibm.com/docs/sr/sps
 
 Below you can see a snippit of an example of CRISP-DM in use for this project. It outlined each process that needed taking for data visualization.
 
-[CRISP-DM](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/crisp-dm.png)
+![CRISP-DM](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/crisp-dm.png)
 
     
 ## Unfixed Bugs
