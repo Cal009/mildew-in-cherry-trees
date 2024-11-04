@@ -1,17 +1,5 @@
 # ![Cherry-tree](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/cherry-tree.jpg) Cherry Leaf Mildew Detector 
 
-## Cloud IDE Reminders
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, then you can create a new one with _Regenerate API Key_.
-
 ## Table of Contents
 1. [Dataset Content](#dataset-content)
 2. [Business Requirements](#business-requirements)
@@ -218,6 +206,16 @@ The leaves data set was linked from [Kaggle](https://www.kaggle.com/datasets/cod
 4. Select the branch you want to deploy, then click Deploy Branch.
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button Open App on the top of the page to access your App.
 6. If the slug size is too large, then add large files not required for the app to the .slugignore file.
+
+## Cloud IDE Reminders
+
+To log into the Heroku toolbelt CLI:
+
+1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
+2. Scroll down to the _API Key_ and click _Reveal_
+3. Copy the key
+4. In the terminal, run `heroku_config`
+5. Paste in your API key when asked
 
 ## Acknowledgements (optional)
 
