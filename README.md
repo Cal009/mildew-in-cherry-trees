@@ -88,9 +88,11 @@ It is important to check for a detail like this incase it does provide a discrep
 #### 2. Observation
 
 Shown below is a collage of all the images used to test this hypothesis against the running ML model.
+
 ![leaf_collage](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/leaf_collage.png)
 
 All images have a different background to the origninal data set and once put through the Ml model the data below shows the accuracy.
+
 ![random_background_report](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/random_sample_report.png)
 
 #### 3. Conclusion
@@ -99,16 +101,17 @@ As the report shows, 10 images were passed through the model, however only 8/10 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-- Business Requirement 1: Data Visualization
+### Business Requirement 1: Data Visualization
+>The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 
-    - We will display the "mean" and "standard deviation" images for powedery mildew and healthy leaves.
-    - We will display the difference between average diseased and healthy leaves.
-    - We will display an image montage for either dieseased or healthy leaves.
+**User Stories:**
+    - As a client I want a clear and interactive dashboard that displays all the data findings in an understandable manner.
+    - As a client I want to display the difference between average and variability images in order to differentiate between healthy and infected leaves
+    - As a client I want to display the difference between the average healthy leaf and average leaf affected by the powdery mildew in order to visually differentiate between the two.
+    - As a client I want to display an image montage of either healthy leaves or those affected by powdery mildew in order to visually differentiate between the two.
 
-- Business Requirement 2: Classification
-
-    - We want to predict if a given tree is healthy or not.
-    - We want to build a binary classifier and generate reports.
+### Business Requirement 2: Classification
+>The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
 ## ML Business Case
 
