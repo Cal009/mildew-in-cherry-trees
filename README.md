@@ -8,10 +8,11 @@
 5. [Implementing the business requirements](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations-and-ml-tasks)
 6. [ML Business Case](#ml-business-case)
 7. [Dashboard Design](#dashboard-design)
-8. [Bugs](#unfixed-bugs)
-9. [Deployment](#deployment)
-10. [Technologies Used](#technologies-used)
-11. [Credits](#credits)
+8. [CRISP-DM](#cross-industry-standard-process-for-data-mining-crisp-dm)
+9. [Bugs](#unfixed-bugs)
+10. [Deployment](#deployment)
+11. [Technologies Used](#technologies-used)
+12. [Credits](#credits)
 
 ### Deployed version of this site can be found [here](https://cherry-leaf-detector-7dd715ad1b7d.herokuapp.com/)
 
@@ -139,7 +140,7 @@ Breaking down the Data Visualization notebook:
 ### Business Requirement 2: Classification
 >The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
-**User Storys:**
+**User Story:**
 
 - As a client I want the ML model to have an overall accuracy rating of at least 97%
 
