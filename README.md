@@ -4,13 +4,14 @@
 1. [Dataset Content](#dataset-content)
 2. [Business Requirements](#business-requirements)
 3. [Hypothesis and Validation](#hypothesis-and-validation)
-4. [Implementing the business requirements](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations-and-ml-tasks)
-5. [ML Business Case](#ml-business-case)
-6. [Dashboard Design](#dashboard-design)
-7. [Bugs](#unfixed-bugs)
-8. [Deployment](#deployment)
-9. [Technologies Used](#technologies-used)
-10. [Credits](#credits)
+4. [Rational for the model](#rationale-for-the-model)
+5. [Implementing the business requirements](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations-and-ml-tasks)
+6. [ML Business Case](#ml-business-case)
+7. [Dashboard Design](#dashboard-design)
+8. [Bugs](#unfixed-bugs)
+9. [Deployment](#deployment)
+10. [Technologies Used](#technologies-used)
+11. [Credits](#credits)
 
 ### Deployed version of this site can be found [here](https://cherry-leaf-detector-7dd715ad1b7d.herokuapp.com/)
 
@@ -113,26 +114,34 @@ Our model required the use of either sigmoid or softmax. Our model that was trai
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
+The business requirements were split into multiple user stories. **They were then manually tested and all the tasks/functions work as intended**
 
 ### Business Requirement 1: Data Visualization
 >The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 
 **User Stories:**
-    - As a client I want a clear and interactive dashboard that displays all the data findings in an understandable manner.
-    - As a client I want to display the difference between average and variability images in order to differentiate between healthy and infected leaves
-    - As a client I want to display the difference between the average healthy leaf and average leaf affected by the powdery mildew in order to visually differentiate between the two.
-    - As a client I want to display an image montage of either healthy leaves or those affected by powdery mildew in order to visually differentiate between the two.
+
+- As a client I want a clear and interactive dashboard that displays all the data findings in an understandable manner.
+
+- As a client I want to display the difference between average and variability images in order to differentiate between healthy and infected leaves
+
+- As a client I want to display the difference between the average healthy leaf and average leaf affected by the powdery mildew in order to visually differentiate between the two.
+
+- As a client I want to display an image montage of either healthy leaves or those affected by powdery mildew in order to visually differentiate between the two.
 
 The user stories were addressed when creating the Data Visualization notebook and are then displayed on the streamlit dashboard.
 Breaking down the Data Visualization notebook:
-    - The difference between an average infected leaf and a healthy one
-    - Image montage for either infected or healthy leaves.
+
+- The difference between an average infected leaf and a healthy one
+
+- Image montage for either infected or healthy leaves.
 
 ### Business Requirement 2: Classification
 >The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
 **User Storys:**
-    - As a client I want the ML model to have an overall accuracy rating of at least 97%
+
+- As a client I want the ML model to have an overall accuracy rating of at least 97%
 
 The user story was adhered to when creating the ML model and acchieved over the required accuracy. That can then be used in the dashboard to upload more images and still receive the same level of accuracy.
 
@@ -189,6 +198,7 @@ CRISP-DM is known as an industry-proven way to guide data mining efforts.
 Source for the information can be found at [IBM](https://www.ibm.com/docs/sr/spss-modeler/saas?topic=dm-crisp-help-overview)
 
 Below you can see a snippit of an example of CRISP-DM in use for this project. It outlined each process that needed taking for data visualization.
+
 [CRISP-DM](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/crisp-dm.png)
 
     
