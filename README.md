@@ -1,4 +1,4 @@
-# ![Cherry-tree](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/cherry-tree.jpg)
+# Cherry Leaf Mildew Detector ![Cherry-tree](https://github.com/Cal009/mildew-in-cherry-trees/blob/main/readme_images/cherry-tree.jpg)
 
 ## Cloud IDE Reminders
 
@@ -204,8 +204,7 @@ The leaves data set was linked from [Kaggle](https://www.kaggle.com/datasets/cod
 
 ### Media
 
-- The photos used on the home and sign-up page are from This Open-Source site.
-- The images used for the gallery page were taken from this other open-source site.
+- The photo used in the README file was found on [Pexels](https://www.pexels.com) from Julia Filirovska
 
 ### Heroku
 
