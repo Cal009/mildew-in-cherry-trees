@@ -28,3 +28,26 @@ def page_project_hypothesis_body():
         f" the model in future cases with confidence in its accuracy."
     )
 
+    st.write("---")
+
+    st.write("### Hypothesis 2 and Validation:")
+
+    st.success(
+        f"The model will be unable to predict as accurately if the background image is different from the"
+        f" original beige background used to train with."
+    )
+
+    st.info(
+        f"We suspect that due to the model being trained on images all with the same background,"
+        f" it will be unable to remain as accurate when given an image with a different background."
+    )
+
+    st.warning(
+        f"As the report shows, 10 images were passed through the model, however only 8/10 were predicted"
+        f" correctly meaning the model accuracy dropped to approximately 80%. As agreed with the business owner,"
+        f" the desired accuracy has to be 97% or above meaning that **yes** the background makes a difference to"
+        f" the model accuracy. Knowing this it is vital to inform the business owner when future testing to achieve high accuracy reports."
+    )
+
+    st.write("---")
+
