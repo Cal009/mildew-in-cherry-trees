@@ -230,6 +230,9 @@ Below you can see a snippit of an example of CRISP-DM in use for this project. I
 
 ## Credits
 
+Credit given to cla-cif and their Cherry-Powdery-Mildew-Detector, giving me ideas and guidance on the documentaion of the project.
+Credit to Code Institute for providing the project template
+Credit to Code Institute for the malaria walkthrough project.
 
 ### Content
 
@@ -262,6 +265,6 @@ To log into the Heroku toolbelt CLI:
 4. In the terminal, run `heroku_config`
 5. Paste in your API key when asked
 
-## Acknowledgements (optional)
+## Acknowledgements
 
-- Thank the people who provided support throughout this project.
+- Thank you to Mo Shami for the one to one guidance.
