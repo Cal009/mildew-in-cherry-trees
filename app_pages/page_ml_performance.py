@@ -28,6 +28,28 @@ def page_ml_performance_metrics():
 
 
     st.write("### Model Performance")
+
+    model_clf = plt.imread(f"outputs/{version}/clf_report.png")
+    st.image(model_clf, caption='Classification Report')  
+
+    st.warning(
+        f"**Classification Report**\n\n"
+        f"Precision: Percentage of correct predictions. The ratio of true positives to the sum of a true positive and false positive.\n\n"
+        f"Recall: Percentage of positive cases detected. The ratio of true positives to the sum of true positives and false negatives.\n\n"
+        f"F1 Score: Percentage of correct positive predictions. Weighted harmonic mean of precision and recall such that the best score is 1.0 and the worst is 0.0.\n\n"
+        f"Support: The number of actual occurrences of the class in the specified dataset.")
+
+    model_cm = plt.imread(f"outputs/{version}/confusion_matrix.png")
+    st.image(model_cm, caption='Confusion Matrix')
+
+    st.warning(
+        f"**Confusion Matrix**\n\n"
+        f"Confusion Matrix is a performance measurement for a classifier."
+        f" It is a table with 4 different combinations of predicted and actual values.\n\n"
+        f"True Positive / True Negative: the prediction matches the reality.\n\n"
+        f"False Positive / False Negative: the prediction is opposite of reality (the leaf was predicted infected while it's actually healthy).\n\n"
+        f"A good model is one which has high TP and TN rates, while low FP and FN rates.")
+
     col1, col2 = st.beta_columns(2)
     with col1: 
         model_acc = plt.imread(f"outputs/{version}/model_training_acc.png")
