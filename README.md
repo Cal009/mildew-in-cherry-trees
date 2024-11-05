@@ -188,6 +188,8 @@ The user story was adhered to when creating the ML model and acchieved over the 
 
 #### Page 5: ML Performance Metrics
 - Label Frequencies for Train, Validation and Test Sets
+- Classification Report
+- Confusion Matrix
 - Model History - Accuracy and Losses
 - Model evaluation result
 
